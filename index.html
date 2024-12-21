@@ -1,0 +1,280 @@
+  <!DOCTYPE html>
+  <html lang="en" class="scroll-smooth">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>LearningTailwindCss</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script>
+          tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              poppins: ['Poppins'],
+            },
+          },
+        },
+      }
+      </script>
+      
+  </head>
+
+  <body class="font-poppins">
+
+
+
+      <!-- Navbar -->
+      <div class="w-full flex fixed justify-between bg-slate-950 p-3 font-poppins shadow-2xl z-40">
+        <div class="flex">
+          <img class="w-8 rounded-full" src="./img/WhatsApp Image 2024-11-28 at 19.57.41.jpeg" alt="">
+          <h1 class="font-bold text-white text-xl ml-4 mt-1">Syaa.</h1>
+        </div>
+        <div class="mt-1 font-semibold text-slate-600">
+          <ul class="flex">
+            <a href="#home" class="mr-7 hover:text-white">Home</a>
+            <a href="#profil" class="mr-7 hover:text-white">Profil</a>
+            <a href="#skill" class="mr-7 hover:text-white">Skill</a>
+            <a href="#project" class="mr-7 hover:text-white">Project</a>
+           <a href="#contact" class="mr-7 hover:text-white">Contact</a>
+          </ul>
+        </div>
+      </div>
+      <!-- Navbar End -->
+
+
+      <!-- Home Section -->
+       <div id="home" class="w-full flex flex-wrap pt-32 pb-32 pl-20 bg-slate-900">
+         <div class="max-w-xl pt-12">
+          <h1 class="font-bold text-white text-5xl mb-2">Hi!, Iam Rasya Huda</h1>
+          <h4 class="font-bold text-white mb-3">Coding | Design Graphics</h4>
+          <p class="text-white font-semibold mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nobis rerum accusantium? Amet aperiam accusantium, velit quae nostrum tempore, exercitationem quasi blanditiis ut debitis nulla delectus asperiores qui eum odit maxime repudiandae? Et saepe aliquam, maxime nostrum veniam ipsam corporis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni quasi et vitae similique, cupiditate explicabo deserunt soluta animi consequuntur beatae?</p>
+          <button class="bg-blue-600 pl-2 pt-1 pr-2 pb-1 rounded-2xl text-white w-28 shadow-lg shadow-blue-600 hover:bg-white hover:text-black hover:shadow-slate-500 active:bg-slate-600 active:shadow-slate-600 font-semibold active:text-white">View</button>
+         </div>
+         <div class="ml-32">
+          <img class="w-96 rounded-full shadow-2xl ring-8 ring-blue-500" src="./img//WhatsApp Image 2024-11-28 at 19.57.41.jpeg" alt="">
+         </div>
+       </div>
+       <!-- Home End -->
+
+       <!-- Profil Start -->
+       <div id="profil" class=" bg-slate-600 p-20 flex flex-wrap mx-auto">
+        <div class="mx-auto mb-20">
+          <h1 class="text-5xl font-bold text-white">My Profile</h1>
+          <h4 class="text-xl text-center text-blue-400 font-semibold mt-2">This is me</h4>
+        </div>
+        <div class="flex bg-white shadow-2xl p-8 rounded-xl">
+          <img class="w-72 rounded-md" src="./img/Screenshot 2024-12-18 185058.jpg" alt="">
+          <div class="ml-5">
+            <h6 class="font-semibold text-blue-500">Lulusan</h6>
+            <h4 class="mt-2 text-2xl font-bold text-center">SMP MUHAMMADIYAH 1 SURAKARTA</h4>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium ipsum eos ad, esse ullam! Adipisci dolore veritatis laborum architecto amet pariatur error, sit magni dolorum molestias ad. Veritatis, odit. Facilis iusto perspiciatis iure nemo cumque architecto rerum consequatur unde!</p>
+            <a href="https://www.instagram.com/smpmuhiska_simpon"><button class="py-3 px-4 w-full rounded-2xl mx-auto bg-green-500 mt-8 text-white shadow-xl hover:bg-slate-700 active:bg-slate-900">Selengkapnya</button></a>
+          </div>
+        </div>
+        <div class="flex bg-white shadow-2xl p-8 rounded-xl mt-20">
+          <img class="w-72 rounded-md" src="./img/WhatsApp Image 2024-11-25 at 10.58.46 (1).jpeg" alt="">
+          <div class="ml-5">
+            <h6 class="font-semibold text-red-600">Saat ini</h6>
+            <h4 class="mt-2 text-2xl font-bold text-center">SMK MUHAMMADIYAH 3 SURAKARTA</h4>
+            <h5 class="font-semibold text-center">Major Computer and Network Engineering</h5>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium ipsum eos ad, esse ullam! Adipisci dolore veritatis laborum architecto amet pariatur error, sit magni dolorum molestias ad. Veritatis, odit. Facilis iusto perspiciatis iure nemo cumque architecto rerum consequatur unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam similique ullam perspiciatis voluptate quidem ad consequuntur laboriosam ab, velit minus possimus corporis quo a, sunt quae minima accusamus dicta impedit officia aut quasi ea! Ut nisi libero rem laudantium ipsam.</p>
+            <a href="https://www.instagram.com/smkmuh3solo"><button class="py-3 px-4 w-full rounded-2xl mx-auto mt-11 shadow-2xl text-white bg-blue-500 hover:bg-slate-700 active:bg-slate-900">Selengkapnya</button></a>
+          </div>
+        </div>
+        <div class="text-3xl mx-auto">
+          <h4 class="text-xl text-white font-semibold mt-20 text-center mb-5">Mari Berteman.</h4>
+          <a href="https://www.instagram.com/rsyhdr"><i class="fa-brands fa-instagram bg-white mr-2 rounded-full shadow-lg py-3 px-3 hover:text-white hover:bg-slate-500 active:bg-slate-900 shadow-white"></i></a>
+          <a href="https://www.threads.com/rsyhdr"><i class="fa-brands fa-threads bg-white mr-2 rounded-full shadow-lg py-3 px-3 hover:text-white hover:bg-slate-500 active:bg-slate-900 shadow-white"></i></a>
+          <a href="https://www.twitter.com/RasyaHudaR"><i class="fa-brands fa-twitter bg-white mr-2 rounded-full shadow-lg py-3 px-3 hover:text-white hover:bg-slate-500 active:bg-slate-900 shadow-white"></i></a>
+          <a href="https://www.github.com/rasyahuda"><i class="fa-brands fa-github bg-white rounded-full shadow-lg py-3 px-3 hover:text-white hover:bg-slate-500 active:bg-slate-900 shadow-white"></i></a>
+        </div>
+       </div>
+       <!-- Profil End -->
+       
+       <!-- Skill Start-->
+      <div id="skill" class="w-full p-36 bg-white mx-auto pt-8">
+        <div class="text-center">
+          <h2 class="font-bold text-5xl text-red-700 mt-14">Skill & Abilities</h2>
+          <h5 class="text-blue-600 font-semibold mt-2 text-lg mb-10">My</h5>
+        </div>
+        <div class="bg-slate-400 mt-5 flex flex-wrap pl-4 pt-8 pb-10 justify-center rounded-xl shadow-2xl mx-auto">
+          <div class="mr-5 mb-7">
+            <img class="w-72 rounded-xl" src="./img/png-transparent-figma-app-logo-tech-companies.png" alt="">
+          </div>
+          <div class="mr-5 mb-7">
+            <img class="w-72 rounded-xl" src="./img/images (2).png" alt="">
+          </div>
+          <div class="mr-5 mb-7">
+            <img class="w-72 rounded-xl" src="./img/G0R0sjHH_400x400.jpg" alt="">
+          </div>
+          <div class="mr-6">
+            <img class="w-72 rounded-xl" src="./img/images (1).png" alt="">
+          </div>
+          <div class="mr-6">
+          <img class="w-72 rounded-xl" src="./img/images (3).png" alt="">
+          </div>
+          <div class="mr-6">
+            <img class="w-72 rounded-xl" src="./img/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Skill End -->
+
+
+      <!-- Project Start -->
+          <div  id="project" class="bg-slate-800 w-full mx-auto pb-52">
+            <h2 class="font-bold text-5xl text-white pt-16 text-center">Project</h2>
+              <h5 class="font-semibold text-blue-500 mt-5 mb-11 text-center">Sport Design Graphics</h5>
+            <div class="w-full p-10 mx-auto flex flex-wrap justify-center">
+              <div class="w-64 mr-12 mb-36">
+                <img class="rounded-xl shadow-2xl" src="./img/Garnacho.jpg" alt="">
+                  <h4 class="font-bold text-2xl text-white mt-2">garnacho poster</h4>
+                <p class="text-white mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, cum.</p>
+              </div>
+              <div class="w-64 mr-12">
+                <img class="rounded-xl shadow-2xl" src="./img/preferens.jpg" alt="">
+                  <h4 class="font-bold text-2xl text-white mt-2">Kobbie Mainoo poster</h4>
+                 <p class="text-white mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,cum.</p>
+              </div>
+              <div class="w-64 mr-12">
+                <img class="rounded-xl shadow-2xl" src="./img/cvr.jpg" alt="">
+                <h4 class="font-bold text-2xl text-white mt-2">Design poster</h4>
+                <p class="text-white mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, cum.</p>
+              </div>
+              <div class="w-64">
+                <img class="rounded-xl shadow-2xl" src="./img/br.jpg" alt="">
+                <h4 class="font-bold text-2xl text-white mt-2">Stranger Things poster</h4>
+                <p class="text-white mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, cum.</p>
+              </div>
+              <div class="w-64 mr-12 mb-20">
+                <img class="rounded-xl shadow-2xl" src="./img/yml2.jpg" alt="">
+                <h4 class="font-bold text-2xl text-white mt-2">Lamine Yamal poster</h4>
+                <p class="text-white mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, cum.</p>
+              </div>
+              <div class="w-64 mr-12">
+                <img class="rounded-xl shadow-2xl" src="./img/Untitled-1-Recovered.jpg" alt="">
+                <h4 class="font-bold text-2xl text-white mt-2">garnacho poster</h4>
+                <p class="text-white mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, cum.</p>
+              </div>
+              <div class="w-64 mr-12">
+                <img class="rounded-xl shadow-2xl" src="./img/g17.jpg" alt="">
+                <h4 class="font-bold text-2xl text-white mt-2">garnacho poster</h4>
+                <p class="text-white mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, cum.</p>
+              </div>
+              <div class="w-60">
+                <img class="rounded-xl shadow-2xl" src="./img/ag24.jpg" alt="">
+                <h4 class="font-bold text-2xl text-white mt-2">garnacho poster</h4>
+                <p class="text-white mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, cum.</p>
+              </div>
+              <div class="w-60 mr-12">
+                <img class="rounded-xl shadow-2xl" src="./img/amadTR.jpg" alt="">
+                <h4 class="font-bold text-2xl text-white mt-2">Amad Diallo poster</h4>
+                <p class="text-white mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, cum.</p>
+              </div>
+              <div class="w-60">
+                <img class="rounded-xl shadow-2xl" src="./img/amaddd.jpg" alt="">
+                <h4 class="font-bold text-2xl text-white mt-2">Amad Diallo poster</h4>
+                <p class="text-white mt-2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, cum.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Project End -->
+
+          
+          <div id="contact" class="bg-gray-900 pb-64">
+          <div class="max-w-xl p-5 mx-auto">            
+              <h2 class="text-center font-bold text-white text-5xl mb-20 mt-16">Contact Me</h2>
+                <form action="">
+                  <label for="email">
+                    <input type="email" placeholder="Email" class="block w-full justify-center text-sm py-3 px-5 rounded-2xl shadow-2xl mb-5">
+                  </label>
+                  <label for="password">
+                    <input type="password" placeholder="Password" class="block w-full justify-center text-sm py-3 px-5 rounded-2xl shadow-2xl mt-14 mb-5">
+                  </label>
+                </form>
+                  <button class="text-white font-semibold py-2 px-2 shadow-2xl w-full rounded-2xl mt-8 bg-blue-500 hover:bg-white hover:text-black active:bg-gray-700 active:text-white">Submit</button>
+              </div>
+          </div>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <h1 class="font-extrabold text-center text-6xl my-24 mt-10 bg-gradient-to-r from-blue-500 to-blue-300 p-5 text-white">Learning <span class="bg-gradient-to-r
+    l from-orange-500 to-blue-600 bg-clip-text text-transparent">TailwindCss</span></h1>
+    <section class="font-poppins mb-44 mt-8 w-2/4 bg-blue-500 p-8 text-white mx-auto rounded-lg">
+      <img class="w-11 h-11 rounded-full mb-3" src="./65d6f27f1ec3968f3c757a60792e540f.jpg" alt="">
+        <h2 class="mb-3 text-center font-normal text-2xl">Belajar Mengenai Typography Menggunakan TailwindCss</h2>
+            <div class="mb-4 text-center text-gray-300">By Rasya Huda Ramadhan, 11 Desember 2024</div>
+                <p class="mb-2 mx-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente praesentium commodi autem accusamus quidem placeat sequi repudiandae nam dolor aliquid?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, deleniti!</p>
+    </section> -->
+
+    <!-- <div class="w-72 mx-auto mb-48 bg-slate-500 rounded-lg shadow-xl shadow-teal-500 hover:bg-black group">
+      <img class="rounded-t-lg w-72 h-56" src="./65d6f27f1ec3968f3c757a60792e540f.jpg" alt="">
+      <div class="p-8">
+      <h3 class="text-white">Hiii</h3>
+      <blockquote class="font-serif group-hover:text-white">
+        12 desember 2024
+      </blockquote>
+      <p class="text-white">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+      <button class="bg-blue-500 mx-auto text-white p-2 mt-5 block rounded-xl hover:bg-slate-800 shadow-md active:bg-blue-500 focus:ring focus:ring-blue-500 font-semibold font-poppins" href="">Check it Now</button>
+      </div>
+    </div> -->
+
+    <!-- <div class="max-w-lg mb-72 p-5 border-slate-500 mx-auto shadow-xl rounded-xl font-poppins">
+      <form action="">
+        <label for="email">
+          <span class="mb-2 inline-block after:content-['*'] after:text-pink-900 after:ml-0.5 text-sm">Email</span>
+          <input type="email" placeholder="masukkan email" id="email"  class="py-3 px-4 w-full text-sm block border shadow rounded-md focus:outline-none focus:ring-1 focus:ring-sky-500 invalid:text-red-600 invalid:focus:ring-red-600 invalid:focus:border-red-600 peer">
+          <p class="text-sm mt-1 invisible peer-invalid:visible">email tidak valid</p>
+        </label> -->
+        <!-- <label for="email">
+          <span class="mb-2 inline-block mt-4">Email</span>
+          <input type="email" placeholder="Masukkan Email" class="py-3 px-2 w-full text-sm block border shadow rounded-md">
+        </label> -->
+      <!-- </form>
+    </div> -->
+
+    <!-- <div class="w-full p-10 mb-32 flex flex-wrap justify-center font-poppins bg-slate-900">
+      <div class="w-72 mb-3">
+        <img class="shadow-xl rounded-lg m-10 mb-10" src="./img/images (1).png" alt="" width="w-full">
+        <h4 class="ml-10 font-bold text-blue-600 text-2xl mb-2">lorem</h4>
+        <p class="ml-10 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum impedit cumque sequi corrupti illum mollitia aperiam cupiditate dolore facere.</p>
+      </div>
+      <div class="w-72">
+        <img class="shadow-xl rounded-lg m-10" src="./img/images (1).png" alt="" width="w-full">
+        <h4 class="ml-10 font-bold text-blue-600 text-2xl mb-2">lorem</h4>
+        <p class="ml-10 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum impedit cumque sequi corrupti illum mollitia aperiam cupiditate dolore facere.</p>
+      </div>
+      <div class="w-72">
+        <img class="shadow-xl rounded-lg m-10" src="./img/images (1).png" alt="" width="w-full">
+        <h4 class="ml-10 font-bold text-blue-600 text-2xl mb-2">lorem</h4>
+        <p class="ml-10 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum impedit cumque sequi corrupti illum mollitia aperiam cupiditate dolore facere.</p>
+      </div>
+      <div class="w-72">
+        <img class="shadow-xl rounded-lg m-10" src="./img/images (1).png" alt="" width="w-full">
+        <h4 class="ml-10 font-bold text-blue-600 text-2xl mb-2">lorem</h4>
+        <p class="ml-10 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum impedit cumque sequi corrupti illum mollitia aperiam cupiditate dolore facere.</p>
+      </div>
+    </div>
+       -->
+
+  </section>
+</body>
+</html>
